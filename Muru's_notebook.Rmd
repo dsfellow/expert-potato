@@ -39,6 +39,7 @@ simulated_patient_data %>%
 interactive data viz
 
 ```{r}
+#this is my comments about this plot
 p <- ggplot(data = diamonds, aes(x = cut, fill = clarity)) +
             geom_bar(position = "dodge")
 ggplotly(p)
