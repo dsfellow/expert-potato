@@ -10,7 +10,7 @@ library(plotly)
 
 ```
 
-This is the import process
+This is the import process for Aug 16, 2021
 
 ```{r}
 library(readr)
@@ -24,7 +24,7 @@ this is the data viz
 
 ```{r}
 simulated_patient_data %>%
- filter(birthdate >= "1965-02-17" & birthdate <= "2020-11-09") %>%
+ filter(birthdate >= "1965-06-17" & birthdate <= "2020-11-09") %>%
  
     filter(marital %in% "S" | is.na(marital)) %>%
  ggplot() +
